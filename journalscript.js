@@ -11,3 +11,9 @@ function onScroll() {
 const $$header = document.querySelector(".js-header");
 
 window.addEventListener("scroll", throttle(onScroll, 300));
+
+
+function cateogory(){
+  document.getElementById('track').style.display = 'block';
+    document.getElementById('result').style.display = 'block';
+}
