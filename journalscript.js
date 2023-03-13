@@ -14,6 +14,6 @@ window.addEventListener("scroll", throttle(onScroll, 300));
 
 
 function cateogory(){
-  document.getElementById('track').style.display = 'block';
-    document.getElementById('result').style.display = 'block';
+  document.getElementById('name').style.display = 'block';
+    
 }
